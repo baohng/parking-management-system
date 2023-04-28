@@ -10,7 +10,9 @@ namespace ParkingManagementSystem.Models
         public DateTime TransactionsTime { get; set; } = DateTime.Now;
         public string PaymentInformation { get; set; }
 
+        // Collection navigation property
         public virtual ParkingSpace ParkingSpace { get; set; }
         public virtual IdentityUser User { get; set; }
+        public virtual ICollection<Payment> Payments { get; set; }
     }
 }

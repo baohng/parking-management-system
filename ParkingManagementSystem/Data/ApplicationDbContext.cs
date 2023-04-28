@@ -21,5 +21,6 @@ namespace ParkingManagementSystem.Data
         //DbSet<CheckInOut> CheckInOuts { get; set; }
 
         DbSet<Transaction> Transactions { get; set; }
+        DbSet<Payment> Payments { get; set; }
     }
 }
