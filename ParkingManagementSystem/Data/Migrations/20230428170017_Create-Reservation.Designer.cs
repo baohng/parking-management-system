@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using ParkingManagementSystem.Data;
 
@@ -11,9 +12,10 @@ using ParkingManagementSystem.Data;
 namespace ParkingManagementSystem.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20230428170017_Create-Reservation")]
+    partial class CreateReservation
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -224,45 +226,6 @@ namespace ParkingManagementSystem.Data.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
-            modelBuilder.Entity("ParkingManagementSystem.Models.CheckInOut", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
-
-                    b.Property<decimal>("AmountPaid")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.Property<DateTime>("CheckInTime")
-                        .HasColumnType("datetime2");
-
-                    b.Property<DateTime>("CheckOutTime")
-                        .HasColumnType("datetime2");
-
-                    b.Property<DateTime>("Duration")
-                        .HasColumnType("datetime2");
-
-                    b.Property<int>("ParkingSpaceId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("PaymentStatus")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("ReservationId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("ParkingSpaceId");
-
-                    b.HasIndex("ReservationId");
-
-                    b.ToTable("CheckInOuts");
-                });
-
             modelBuilder.Entity("ParkingManagementSystem.Models.ParkingLot", b =>
                 {
                     b.Property<int>("Id")
@@ -316,35 +279,6 @@ namespace ParkingManagementSystem.Data.Migrations
                     b.ToTable("ParkingSpaces");
                 });
 
-            modelBuilder.Entity("ParkingManagementSystem.Models.Payment", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
-
-                    b.Property<decimal>("Amount")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.Property<string>("PaymentMethod")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("PaymentStatus")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("TransactionId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("TransactionId");
-
-                    b.ToTable("Payments");
-                });
-
             modelBuilder.Entity("ParkingManagementSystem.Models.Price", b =>
                 {
                     b.Property<int>("Id")
@@ -379,7 +313,11 @@ namespace ParkingManagementSystem.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
-                    b.Property<int>("ParkingSpaceId")
+                    b.Property<string>("ParkingSpaceId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("ParkingSpaceId1")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("ReservationEndTime")
@@ -394,7 +332,7 @@ namespace ParkingManagementSystem.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("ParkingSpaceId");
+                    b.HasIndex("ParkingSpaceId1");
 
                     b.HasIndex("UserId");
 
@@ -419,37 +357,6 @@ namespace ParkingManagementSystem.Data.Migrations
                     b.HasKey("id");
 
                     b.ToTable("Sessions");
-                });
-
-            modelBuilder.Entity("ParkingManagementSystem.Models.Transaction", b =>
-                {
-                    b.Property<int>("TransactionId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("TransactionId"), 1L, 1);
-
-                    b.Property<int>("ParkingSpaceId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("PaymentInformation")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime>("TransactionsTime")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("UserId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
-
-                    b.HasKey("TransactionId");
-
-                    b.HasIndex("ParkingSpaceId");
-
-                    b.HasIndex("UserId");
-
-                    b.ToTable("Transactions");
                 });
 
             modelBuilder.Entity("ParkingManagementSystem.Models.UserInformation", b =>
@@ -539,25 +446,6 @@ namespace ParkingManagementSystem.Data.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("ParkingManagementSystem.Models.CheckInOut", b =>
-                {
-                    b.HasOne("ParkingManagementSystem.Models.ParkingSpace", "ParkingSpace")
-                        .WithMany("CheckInOuts")
-                        .HasForeignKey("ParkingSpaceId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.HasOne("ParkingManagementSystem.Models.Reservation", "Reservations")
-                        .WithMany("CheckInOuts")
-                        .HasForeignKey("ReservationId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.Navigation("ParkingSpace");
-
-                    b.Navigation("Reservations");
-                });
-
             modelBuilder.Entity("ParkingManagementSystem.Models.ParkingSpace", b =>
                 {
                     b.HasOne("ParkingManagementSystem.Models.ParkingLot", "ParkingLot")
@@ -567,17 +455,6 @@ namespace ParkingManagementSystem.Data.Migrations
                         .IsRequired();
 
                     b.Navigation("ParkingLot");
-                });
-
-            modelBuilder.Entity("ParkingManagementSystem.Models.Payment", b =>
-                {
-                    b.HasOne("ParkingManagementSystem.Models.Transaction", "Transaction")
-                        .WithMany("Payments")
-                        .HasForeignKey("TransactionId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Transaction");
                 });
 
             modelBuilder.Entity("ParkingManagementSystem.Models.Price", b =>
@@ -603,26 +480,7 @@ namespace ParkingManagementSystem.Data.Migrations
                 {
                     b.HasOne("ParkingManagementSystem.Models.ParkingSpace", "ParkingSpace")
                         .WithMany("Reservations")
-                        .HasForeignKey("ParkingSpaceId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", "User")
-                        .WithMany()
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("ParkingSpace");
-
-                    b.Navigation("User");
-                });
-
-            modelBuilder.Entity("ParkingManagementSystem.Models.Transaction", b =>
-                {
-                    b.HasOne("ParkingManagementSystem.Models.ParkingSpace", "ParkingSpace")
-                        .WithMany("Transactions")
-                        .HasForeignKey("ParkingSpaceId")
+                        .HasForeignKey("ParkingSpaceId1")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -657,26 +515,12 @@ namespace ParkingManagementSystem.Data.Migrations
 
             modelBuilder.Entity("ParkingManagementSystem.Models.ParkingSpace", b =>
                 {
-                    b.Navigation("CheckInOuts");
-
                     b.Navigation("Reservations");
-
-                    b.Navigation("Transactions");
-                });
-
-            modelBuilder.Entity("ParkingManagementSystem.Models.Reservation", b =>
-                {
-                    b.Navigation("CheckInOuts");
                 });
 
             modelBuilder.Entity("ParkingManagementSystem.Models.Session", b =>
                 {
                     b.Navigation("Prices");
-                });
-
-            modelBuilder.Entity("ParkingManagementSystem.Models.Transaction", b =>
-                {
-                    b.Navigation("Payments");
                 });
 #pragma warning restore 612, 618
         }
