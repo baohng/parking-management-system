@@ -13,5 +13,6 @@ namespace ParkingManagementSystem.Data
 
         //Represent the databas tables
         DbSet<UserInformation> UserInformations { get; set; }
+        DbSet<Session> Sessions { get; set; }
     }
 }
