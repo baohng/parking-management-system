@@ -12,5 +12,7 @@ namespace ParkingManagementSystem.Models
 
         public virtual ParkingSpace ParkingSpace { get; set; }   // navigation property to ParkingSpace
         public virtual IdentityUser User { get; set; }           // navigation property to AspNetUsers
+
+        //public virtual ICollection<CheckInOut> CheckInOuts { get; set; }
     }
 }
