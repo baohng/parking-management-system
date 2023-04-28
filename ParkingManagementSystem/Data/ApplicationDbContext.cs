@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using ParkingManagementSystem.Models;
 
 namespace ParkingManagementSystem.Data
 {
@@ -9,5 +10,8 @@ namespace ParkingManagementSystem.Data
             : base(options)
         {
         }
+
+        //Represent the databas tables
+        DbSet<UserInformation> UserInformations { get; set; }
     }
 }
