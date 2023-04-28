@@ -13,6 +13,6 @@ namespace ParkingManagementSystem.Models
 
         public virtual ICollection<Reservation> Reservations { get; set; }
         public virtual ICollection<Transaction> Transactions { get; set; }
-        //public virtual ICollection<CheckInOut> CheckInOuts { get; set; }
+        public virtual ICollection<CheckInOut> CheckInOuts { get; set; }
     }
 }

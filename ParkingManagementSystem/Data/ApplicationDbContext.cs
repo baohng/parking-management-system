@@ -18,9 +18,36 @@ namespace ParkingManagementSystem.Data
         DbSet<Price> Prices { get; set; }
         DbSet<ParkingSpace> ParkingSpaces { get; set; }
         DbSet<Reservation> Reservations { get; set; }
-        //DbSet<CheckInOut> CheckInOuts { get; set; }
-
+        DbSet<CheckInOut> CheckInOuts { get; set; }
         DbSet<Transaction> Transactions { get; set; }
         DbSet<Payment> Payments { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            //If a record in the Reservation table is deleted, all corresponding records in the CheckInOut table wont be deleted.
+            //but will have an exceptions
+            modelBuilder.Entity<CheckInOut>()
+                .HasOne(c => c.Reservations)
+                .WithMany(r => r.CheckInOuts)
+                .HasForeignKey(c => c.ReservationId)
+                .OnDelete(DeleteBehavior.Restrict);
+
+            //If a record in the ParkingSpace table is deleted, all corresponding records in the CheckInOut table wont be deleted.
+            //but will have an exceptions
+            modelBuilder.Entity<CheckInOut>()
+                .HasOne(c => c.ParkingSpace)
+                .WithMany(p => p.CheckInOuts)
+                .HasForeignKey(c => c.ParkingSpaceId)
+                .OnDelete(DeleteBehavior.Restrict);
+            //If a record in the ParkingSpace table is deleted, all corresponding records in the Reservation table wont be deleted.
+            //but will have an exceptions
+            modelBuilder.Entity<Reservation>()
+                .HasOne(r => r.ParkingSpace)
+                .WithMany(p => p.Reservations)
+                .HasForeignKey(r => r.ParkingSpaceId)
+                .OnDelete(DeleteBehavior.Restrict);
+        }
     }
 }
