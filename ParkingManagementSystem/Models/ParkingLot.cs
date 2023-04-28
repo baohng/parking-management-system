@@ -14,5 +14,6 @@ namespace ParkingManagementSystem.Models
         public decimal ParkingLotPrice { get; set; }
 
         public virtual ICollection<Price> Prices { get; set; }
+        public virtual ICollection<ParkingSpace> ParkingSpaces { get; set; }
     }
 }
