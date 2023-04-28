@@ -15,5 +15,6 @@ namespace ParkingManagementSystem.Data
         DbSet<UserInformation> UserInformations { get; set; }
         DbSet<Session> Sessions { get; set; }
         DbSet<ParkingLot> ParkingLots { get; set; }
+        DbSet<Price> Prices { get; set; }
     }
 }

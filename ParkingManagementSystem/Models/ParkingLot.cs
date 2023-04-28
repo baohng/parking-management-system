@@ -13,5 +13,6 @@ namespace ParkingManagementSystem.Models
         public string VehicleType { get; set; }
         public decimal ParkingLotPrice { get; set; }
 
+        public virtual ICollection<Price> Prices { get; set; }
     }
 }
