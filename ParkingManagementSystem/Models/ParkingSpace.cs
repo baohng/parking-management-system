@@ -10,5 +10,7 @@ namespace ParkingManagementSystem.Models
         public int ParkingLotId { get; set; }
 
         public virtual ParkingLot ParkingLot { get; set; }
+
+        public virtual ICollection<Reservation> Reservations { get; set; }
     }
 }
