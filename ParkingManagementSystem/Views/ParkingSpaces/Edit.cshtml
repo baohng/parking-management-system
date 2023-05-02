@@ -1,0 +1,45 @@
+﻿@model ParkingManagementSystem.Models.ParkingSpace
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "ADMIN";
+}
+
+<h1 style="color: black" ;>Edit</h1>
+
+<h4 style="color: black" ;>ParkingSpace</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="Location" class="control-label"></label>
+                <input asp-for="Location" class="form-control" />
+                <span asp-validation-for="Location" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AvailabilityStatus" class="control-label"></label>
+                <input asp-for="AvailabilityStatus" class="form-control" />
+                <span asp-validation-for="AvailabilityStatus" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ParkingLotId" class="control-label"></label>
+                <select asp-for="ParkingLotId" class="form-control" asp-items="ViewBag.ParkingLotId"></select>
+                <span asp-validation-for="ParkingLotId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

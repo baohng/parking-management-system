@@ -11,16 +11,16 @@ namespace ParkingManagementSystem.Models
         public int Id { get; set; }
 
         [Required]
-        public string UserId { get; set; }
+        public string? UserId { get; set; }
 
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
+        public string? FirstName { get; set; }
+        public string? LastName { get; set; }
 
         public DateTime BirthDate { get; set; }
         public bool Gender { get; set; }
         public int Image { get; set; }
 
         [ForeignKey("UserId")]
-        public virtual IdentityUser User { get; set; }
+        public virtual IdentityUser? User { get; set; }
     }
 }

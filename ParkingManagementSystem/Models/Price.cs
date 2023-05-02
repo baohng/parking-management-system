@@ -7,7 +7,7 @@
         public int SessionId { get; set; }
         public decimal PriceValue { get; set; }
 
-        public virtual ParkingLot ParkingLot { get; set; }
-        public virtual Session Session { get; set; }
+        public virtual ParkingLot? ParkingLot { get; set; }
+        public virtual Session? Session { get; set; }
     }
 }

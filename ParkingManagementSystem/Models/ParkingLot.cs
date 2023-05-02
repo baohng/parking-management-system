@@ -8,12 +8,12 @@ namespace ParkingManagementSystem.Models
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
-        public string Name { get; set; }
+        public string? Name { get; set; }
         public int Capacity { get; set; }
-        public string VehicleType { get; set; }
+        public string? VehicleType { get; set; }
         public decimal ParkingLotPrice { get; set; }
 
-        public virtual ICollection<Price> Prices { get; set; }
-        public virtual ICollection<ParkingSpace> ParkingSpaces { get; set; }
+        public virtual ICollection<Price>? Prices { get; set; }
+        public virtual ICollection<ParkingSpace>? ParkingSpaces { get; set; }
     }
 }

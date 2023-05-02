@@ -1,0 +1,48 @@
+﻿@model IEnumerable<ParkingManagementSystem.Models.Price>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "ADMIN";
+}
+
+<h1 style="color: black";>quản lý</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.PriceValue)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ParkingLot)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Session)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.PriceValue)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ParkingLot.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Session.id)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

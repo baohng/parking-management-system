@@ -12,15 +12,15 @@ namespace ParkingManagementSystem.Data
         }
 
         //Represent the databas tables
-        DbSet<UserInformation> UserInformations { get; set; }
-        DbSet<Session> Sessions { get; set; }
-        DbSet<ParkingLot> ParkingLots { get; set; }
-        DbSet<Price> Prices { get; set; }
-        DbSet<ParkingSpace> ParkingSpaces { get; set; }
-        DbSet<Reservation> Reservations { get; set; }
-        DbSet<CheckInOut> CheckInOuts { get; set; }
-        DbSet<Transaction> Transactions { get; set; }
-        DbSet<Payment> Payments { get; set; }
+        public DbSet<UserInformation> UserInformations { get; set; }
+        public DbSet<Session> Sessions { get; set; }
+        public DbSet<ParkingLot> ParkingLots { get; set; }
+        public DbSet<Price> Prices { get; set; }
+        public DbSet<ParkingSpace> ParkingSpaces { get; set; }
+         public DbSet<Reservation> Reservations { get; set; }
+        public DbSet<CheckInOut> CheckInOuts { get; set; }
+        public DbSet<Transaction> Transactions { get; set; }
+        public DbSet<Payment> Payments { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
