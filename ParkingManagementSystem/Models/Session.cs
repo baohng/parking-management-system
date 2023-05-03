@@ -11,6 +11,6 @@ namespace ParkingManagementSystem.Models
         public string Name { get; set; }
         public decimal SessionPrice { get; set; }
 
-        public virtual ICollection<Price> Prices { get; set; }
+        public virtual ICollection<Price>? Prices { get; set; }
     }
 }
