@@ -10,9 +10,9 @@ namespace ParkingManagementSystem.Models
         public DateTime ReservationStartTime { get; set; }
         public DateTime ReservationEndTime { get; set; }
 
-        public virtual ParkingSpace ParkingSpace { get; set; }   // navigation property to ParkingSpace
-        public virtual IdentityUser User { get; set; }           // navigation property to AspNetUsers
+        public virtual ParkingSpace? ParkingSpace { get; set; }   // navigation property to ParkingSpace
+        public virtual IdentityUser? User { get; set; }           // navigation property to AspNetUsers
 
-        public virtual ICollection<CheckInOut> CheckInOuts { get; set; }
+        public virtual ICollection<CheckInOut>? CheckInOuts { get; set; }
     }
 }
