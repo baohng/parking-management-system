@@ -1,5 +1,6 @@
-﻿@model IEnumerable<ParkingManagementSystem.Models.Reservation>
-
+﻿@*@model IEnumerable<ParkingManagementSystem.Models.Reservation>*@
+@model ReservationParkingspaceViewModel
+<!-- use @Model.Reservations and @Model.ParkingSpaces to access the data -->
 @{
     ViewData["Title"] = "Index";
 }
@@ -54,7 +55,7 @@
 <div class="seat-grid">
     <!-- parking lot area C -->
     <div class="row row__C">
-        <div class="seat seat__C" onclick="callAlert(event.target)">C1</div>
+        @*<div class="seat seat__C" onclick="callAlert(event.target)">C1</div>
         <div class="seat seat__C" onclick="callAlert()">C2</div>
         <div class="seat seat__C" onclick="callAlert()">C3</div>
         <div class="seat seat__C" onclick="callAlert()">C4</div>
@@ -66,6 +67,11 @@
         <div class="seat seat__C" onclick="callAlert()">C10</div>
         <div class="seat seat__C" onclick="callAlert()">C11</div>
         <div class="seat seat__C" onclick="callAlert()">C12</div>
+*@
+        @foreach (var item in Model.ParkingSpaces)
+        {
+            <div class="seat seat__C" id="@item.Id">@item.Location</div>
+        }
         <div class="seat seat__C seat__Area">Area C</div>
     </div>
     <!-- parking lot area B -->

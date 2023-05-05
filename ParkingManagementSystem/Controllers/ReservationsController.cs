@@ -23,7 +23,14 @@ namespace ParkingManagementSystem.Controllers
         public async Task<IActionResult> Index()
         {
             var applicationDbContext = _context.Reservations.Include(r => r.ParkingSpace).Include(r => r.User);
-            return View(await applicationDbContext.ToListAsync());
+            var parkingSpace = _context.ParkingSpaces;
+
+            var viewModel = new ReservationParkingspaceViewModel()
+            {
+                Reservations = await applicationDbContext.ToListAsync(),
+                ParkingSpaces = await parkingSpace.ToListAsync()
+            };
+            return View(viewModel);
         }
 
         // GET: Reservations/Details/5
