@@ -1,3 +1,3 @@
-﻿function callAlert(target) {
-    alert("Click on seat number ${seatNumber}");
+﻿function changeUrl() {
+    window.location.href = "/Reservations/Create";
 }
