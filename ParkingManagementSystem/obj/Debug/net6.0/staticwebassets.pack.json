@@ -445,6 +445,10 @@
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
     },
     {
+      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\css\\reservation-index.css",
+      "PackagePath": "staticwebassets\\css\\reservation-index.css"
+    },
+    {
       "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -455,6 +459,10 @@
     {
       "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\js\\testOnclick.js",
+      "PackagePath": "staticwebassets\\js\\testOnclick.js"
     },
     {
       "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\LICENSE",

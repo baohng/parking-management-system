@@ -3,8 +3,8 @@
 @{
     ViewData["Title"] = "Index";
 }
-
-<h1>Index</h1>
+<link rel="stylesheet" href="~/css/reservation-index.css"/>
+@*<h1>Index</h1>
 
 <p>
     <a asp-action="Create">Create New</a>
@@ -50,4 +50,92 @@
         </tr>
 }
     </tbody>
-</table>
+</table>*@
+<div class="seat-grid">
+    <!-- parking lot area C -->
+    <div class="row row__C">
+        <div class="seat seat__C" onclick="callAlert(event.target)">C1</div>
+        <div class="seat seat__C" onclick="callAlert()">C2</div>
+        <div class="seat seat__C" onclick="callAlert()">C3</div>
+        <div class="seat seat__C" onclick="callAlert()">C4</div>
+        <div class="seat seat__C" onclick="callAlert()">C5</div>
+        <div class="seat seat__C" onclick="callAlert()">C6</div>
+        <div class="seat seat__C" onclick="callAlert()">C7</div>
+        <div class="seat seat__C" onclick="callAlert()">C8</div>
+        <div class="seat seat__C" onclick="callAlert()">C9</div>
+        <div class="seat seat__C" onclick="callAlert()">C10</div>
+        <div class="seat seat__C" onclick="callAlert()">C11</div>
+        <div class="seat seat__C" onclick="callAlert()">C12</div>
+        <div class="seat seat__C seat__Area">Area C</div>
+    </div>
+    <!-- parking lot area B -->
+    <div class="row row__B">
+        <div class="row">
+            <div class="seat seat__B" onclick="callAlert()">B1</div>
+            <div class="seat seat__B" onclick="callAlert()">B2</div>
+            <div class="seat seat__B" onclick="callAlert()">B3</div>
+            <div class="seat seat__B" onclick="callAlert()">B4</div>
+            <div class="seat seat__B" onclick="callAlert()">B5</div>
+            <div class="seat seat__B" onclick="callAlert()">B6</div>
+            <div class="seat seat__B" onclick="callAlert()">B7</div>
+            <div class="seat seat__B" onclick="callAlert()">B8</div>
+            <div class="seat seat__B" onclick="callAlert()">B9</div>
+            <div class="seat seat__B" onclick="callAlert()">B10</div>
+            <div class="seat seat__C seat__Area">Area B</div>
+        </div>
+        <div class="row row">
+            <div class="seat seat__B" onclick="callAlert()">B11</div>
+            <div class="seat seat__B" onclick="callAlert()">B12</div>
+            <div class="seat seat__B" onclick="callAlert()">B13</div>
+            <div class="seat seat__B" onclick="callAlert()">B14</div>
+            <div class="seat seat__B" onclick="callAlert()">B15</div>
+            <div class="seat seat__B" onclick="callAlert()">B16</div>
+            <div class="seat seat__B" onclick="callAlert()">B17</div>
+            <div class="seat seat__B" onclick="callAlert()">B18</div>
+            <div class="seat seat__B" onclick="callAlert()">B19</div>
+            <div class="seat seat__B" onclick="callAlert()">B20</div>
+            <div class="seat seat__C seat__Area"></div>
+        </div>
+    </div>
+    <!-- parking lot area A -->
+    <div class="row row__A">
+        <div class="row">
+            <div class="seat seat__A" onclick="callAlert()">A1</div>
+            <div class="seat seat__A" onclick="callAlert()">A2</div>
+            <div class="seat seat__A" onclick="callAlert()">A3</div>
+            <div class="seat seat__A" onclick="callAlert()">A4</div>
+            <div class="seat seat__A" onclick="callAlert()">A5</div>
+            <div class="seat seat__A" onclick="callAlert()">A6</div>
+            <div class="seat seat__A" onclick="callAlert()">A7</div>
+            <div class="seat seat__A" onclick="callAlert()">A8</div>
+            <div class="seat seat__A" onclick="callAlert()">A9</div>
+            <div class="seat seat__A" onclick="callAlert()">A10</div>
+            <div class="seat seat__C seat__Area">Area A</div>
+        </div>
+        <div class="row">
+            <div class="seat seat__A" onclick="callAlert()">A11</div>
+            <div class="seat seat__A" onclick="callAlert()">A12</div>
+            <div class="seat seat__A" onclick="callAlert()">A13</div>
+            <div class="seat seat__A" onclick="callAlert()">A14</div>
+            <div class="seat seat__A" onclick="callAlert()">A15</div>
+            <div class="seat seat__A" onclick="callAlert()">A16</div>
+            <div class="seat seat__A" onclick="callAlert()">A17</div>
+            <div class="seat seat__A" onclick="callAlert()">A18</div>
+            <div class="seat seat__A" onclick="callAlert()">A19</div>
+            <div class="seat seat__A" onclick="callAlert()">A20</div>
+            <div class="seat seat__C seat__Area"></div>
+        </div>
+    </div>
+
+    <!-- parking lot area D -->
+    <div class="row row__D">
+        <div class="seat seat__D" onclick="callAlert()">D1</div>
+        <div class="seat seat__D" onclick="callAlert()">D2</div>
+        <div class="seat seat__D" onclick="callAlert()">D3</div>
+        <div class="seat seat__D" onclick="callAlert()">D4</div>
+        <div class="seat seat__D" onclick="callAlert()">D5</div>
+        <div class="seat seat__C seat__Area">Area D</div>
+    </div>
+</div>
+
+<script src="~/js/testOnclick.js"/>
