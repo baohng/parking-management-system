@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
+using Aspose.Pdf;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -18,7 +20,36 @@ namespace ParkingManagementSystem.Controllers
         {
             _context = context;
         }
+        db dbop = new db();
+        public IActionResult Report()
+        {
+            var document = new Document
+            {
+                PageInfo = new PageInfo { Margin = new MarginInfo(28, 28, 28, 40) }
+            };
+            var pdfpage = document.Pages.Add();
+            Table table = new Table
+            {
+                ColumnWidths = "25% 25% 25% 25%",
+                DefaultCellPadding = new MarginInfo(10, 5, 10, 5),
+                Border = new BorderInfo(BorderSide.All, Color.Black),
+                DefaultCellBorder = new BorderInfo(BorderSide.All, .2f, Color.Black),
+            };
 
+            DataTable dt = dbop.GetParkingSpace();
+            table.ImportDataTable(dt, true, 0, 0);
+            document.Pages[1].Paragraphs.Add(table);
+            using (var streamout = new MemoryStream())
+            {
+                document.Save(streamout);
+                return new FileContentResult(streamout.ToArray(), "application/pdf")
+                {
+                    FileDownloadName = "ParkingSpace.pdf"
+                };
+            }
+            return View();
+
+        }
         [HttpPost]
         public async Task<IActionResult> Index(string searchString)
         {
