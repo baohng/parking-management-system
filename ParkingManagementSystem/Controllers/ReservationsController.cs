@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -13,10 +14,12 @@ namespace ParkingManagementSystem.Controllers
     public class ReservationsController : Controller
     {
         private readonly ApplicationDbContext _context;
+        private readonly UserManager<IdentityUser> _userManager;
 
-        public ReservationsController(ApplicationDbContext context)
+        public ReservationsController(ApplicationDbContext context, UserManager<IdentityUser> userManager)
         {
             _context = context;
+            _userManager = userManager;
         }
 
         // GET: Reservations
@@ -70,12 +73,33 @@ namespace ParkingManagementSystem.Controllers
         {
             if (ModelState.IsValid)
             {
-                _context.Add(reservation);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                //var user = await _userManager.GetUserAsync(User);
+                //if (user != null)
+                //{
+                //    reservation.UserId = user.Id;
+                //    _context.Add(reservation);
+                //    await _context.SaveChangesAsync();
+                //    return RedirectToAction(nameof(Index));
+                //}
+                //else
+                //{
+                //    // user is not authenticated
+                //}
+                var user = await _userManager.GetUserAsync(User);
+                if (user != null)
+                {
+                    string userId = user.Id;
+                    var reservations = await _context.Reservations.Include(r => r.ParkingSpace).Where(r => r.UserId == userId).ToListAsync();
+                    return View(reservations);
+                }
+                else
+                {
+                    // user is not authenticated
+                    return RedirectToAction("Login", "Account");
+                }
             }
-            ViewData["ParkingSpaceId"] = new SelectList(_context.ParkingSpaces, "Id", "Id", reservation.ParkingSpaceId);
-            ViewData["UserId"] = new SelectList(_context.Users, "Id", "Id", reservation.UserId);
+            //ViewData["ParkingSpaceId"] = new SelectList(_context.ParkingSpaces, "Id", "Id", reservation.ParkingSpaceId);
+            //ViewData["UserId"] = new SelectList(_context.Users, "Id", "Id", reservation.UserId);
             return View(reservation);
         }
 
