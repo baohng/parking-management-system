@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "RurxbSlMMcrmvqqatuGvUlRk0pL940diooV90Cjumcg=",
+  "Hash": "93WeFVU49UhqKpEDUuE2zP9xQ9JY5h8ZX4w2AvWgcvE=",
   "Source": "ParkingManagementSystem",
   "BasePath": "_content/ParkingManagementSystem",
   "Mode": "Default",
@@ -2992,6 +2992,40 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\js\\reservation-index.js",
+      "SourceId": "ParkingManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\",
+      "BasePath": "_content/ParkingManagementSystem",
+      "RelativePath": "js/reservation-index.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\reservation-index.js"
+    },
+    {
+      "Identity": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\js\\reserve.js",
+      "SourceId": "ParkingManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\",
+      "BasePath": "_content/ParkingManagementSystem",
+      "RelativePath": "js/reserve.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\reserve.js"
+    },
+    {
       "Identity": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\js\\site.js",
       "SourceId": "ParkingManagementSystem",
       "SourceType": "Discovered",
@@ -3007,23 +3041,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
-    },
-    {
-      "Identity": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\js\\testOnclick.js",
-      "SourceId": "ParkingManagementSystem",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\",
-      "BasePath": "_content/ParkingManagementSystem",
-      "RelativePath": "js/testOnclick.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\testOnclick.js"
     },
     {
       "Identity": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",

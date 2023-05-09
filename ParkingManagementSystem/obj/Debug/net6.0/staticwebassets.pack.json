@@ -457,12 +457,16 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\js\\site.js",
-      "PackagePath": "staticwebassets\\js\\site.js"
+      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\js\\reservation-index.js",
+      "PackagePath": "staticwebassets\\js\\reservation-index.js"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\js\\testOnclick.js",
-      "PackagePath": "staticwebassets\\js\\testOnclick.js"
+      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\js\\reserve.js",
+      "PackagePath": "staticwebassets\\js\\reserve.js"
+    },
+    {
+      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
       "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\LICENSE",
