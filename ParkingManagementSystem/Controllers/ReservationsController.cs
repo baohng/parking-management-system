@@ -57,10 +57,17 @@ namespace ParkingManagementSystem.Controllers
         }
 
         // GET: Reservations/Create
-        public IActionResult Create()
+        public async Task<IActionResult> Create()
         {
+            var user = await _userManager.GetUserAsync(User);
+            if (user == null)
+            {
+                // User is not authenticated
+                return RedirectToAction("Login", "Account");
+            }
+
             ViewData["ParkingSpaceId"] = new SelectList(_context.ParkingSpaces, "Id", "Id");
-            ViewData["UserId"] = new SelectList(_context.Users, "Id", "Id");
+            ViewData["UserId"] = user.Id;
             return View();
         }
 

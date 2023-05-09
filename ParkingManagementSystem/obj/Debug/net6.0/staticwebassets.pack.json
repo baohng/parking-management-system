@@ -461,10 +461,6 @@
       "PackagePath": "staticwebassets\\js\\reservation-index.js"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\js\\reserve.js",
-      "PackagePath": "staticwebassets\\js\\reserve.js"
-    },
-    {
       "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
