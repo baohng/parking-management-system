@@ -73,28 +73,30 @@ namespace ParkingManagementSystem.Controllers
         {
             if (ModelState.IsValid)
             {
-                //var user = await _userManager.GetUserAsync(User);
-                //if (user != null)
-                //{
-                //    reservation.UserId = user.Id;
-                //    _context.Add(reservation);
-                //    await _context.SaveChangesAsync();
-                //    return RedirectToAction(nameof(Index));
-                //}
-                //else
-                //{
-                //    // user is not authenticated
-                //}
                 var user = await _userManager.GetUserAsync(User);
                 if (user != null)
                 {
-                    string userId = user.Id;
-                    var reservations = await _context.Reservations.Include(r => r.ParkingSpace).Where(r => r.UserId == userId).ToListAsync();
-                    return View(reservations);
+                    // Set the user ID for the reservation
+                    reservation.UserId = user.Id;
+
+                    // Get the parking space associated with the reservation
+                    var parkingSpace = await _context.ParkingSpaces.FindAsync(reservation.ParkingSpaceId);
+
+                    if (parkingSpace != null)
+                    {
+                        // Update the availability status of the parking space
+                        parkingSpace.AvailabilityStatus = "reserved";
+                        _context.Update(parkingSpace);
+                    }
+
+                    // Add the reservation to the database and save changes
+                    _context.Add(reservation);
+                    await _context.SaveChangesAsync();
+                    return RedirectToAction(nameof(Index));
                 }
                 else
                 {
-                    // user is not authenticated
+                    // User is not authenticated
                     return RedirectToAction("Login", "Account");
                 }
             }
