@@ -35,7 +35,17 @@ namespace ParkingManagementSystem.Controllers
                 Border = new BorderInfo(BorderSide.All, Color.Black),
                 DefaultCellBorder = new BorderInfo(BorderSide.All, .2f, Color.Black),
             };
+            TextStamp textStamp = new TextStamp("Report Chỗ đậu xe");
+            textStamp.TopMargin = 20;
+            textStamp.HorizontalAlignment = HorizontalAlignment.Center;
+            textStamp.VerticalAlignment = VerticalAlignment.Top;
 
+
+            // Add header on all pages
+            foreach (Page page in document.Pages)
+            {
+                page.AddStamp(textStamp);
+            }
             DataTable dt = dbop.GetParkingSpace();
             table.ImportDataTable(dt, true, 0, 0);
             document.Pages[1].Paragraphs.Add(table);
