@@ -1,6 +1,8 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using ParkingManagementSystem.Data;
+using ParkingManagementSystem.Models;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
