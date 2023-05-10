@@ -52,58 +52,68 @@
 }
     </tbody>
 </table>*@
-
-
-<div class="seat-grid">
-    <!-- parking lot area C -->
-    <div class="row row__C">
-        @foreach (var item in Model.ParkingSpaces.Take(12))
-        {
-            <div class="seat seat__C" parking-space-id="@item.Id" state="@item.AvailabilityStatus">@item.Location</div>
-        }
-        <div class="seat seat__C seat__Area">Area C</div>
+<div class="container-body">
+    <div class="sidebar sidebar-second">
+        <ul class="nav flex-column">
+            <li class="nav-item">
+                <a class="nav-link text-dark" asp-area="" asp-controller="Reservations" asp-action="Edit">Update your reservation</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark" asp-area="" asp-controller="Reservations" asp-action="Delete">Cancel reservation</a>
+            </li>
+        </ul>
     </div>
-    <!-- parking lot area B -->
-    <div class="row row__B">
-        <div class="row">
-            @foreach (var item in Model.ParkingSpaces.Where(p => p.Id >= 13 && p.Id <= 22))
+    <div class="seat-grid">
+        <!-- parking lot area C -->
+        <div class="row row__C">
+            @foreach (var item in Model.ParkingSpaces.Take(12))
             {
-                <div class="seat seat__B" parking-space-id="@item.Id" state="@item.AvailabilityStatus">@item.Location</div>
+                <div class="seat seat__C" parking-space-id="@item.Id" state="@item.AvailabilityStatus">@item.Location</div>
             }
-            <div class="seat seat__B seat__Area">Area B</div>
+            <div class="seat seat__C seat__Area">Area C</div>
         </div>
-        <div class="row">
-            @foreach (var item in Model.ParkingSpaces.Where(p => p.Id >= 23 && p.Id <= 32))
-            {
-                <div class="seat seat__B" parking-space-id="@item.Id" state="@item.AvailabilityStatus">@item.Location</div>
-            }
-            <div class="seat seat__B seat__Area"></div>
+        <!-- parking lot area B -->
+        <div class="row row__B">
+            <div class="row">
+                @foreach (var item in Model.ParkingSpaces.Where(p => p.Id >= 13 && p.Id <= 22))
+                {
+                    <div class="seat seat__B" parking-space-id="@item.Id" state="@item.AvailabilityStatus">@item.Location</div>
+                }
+                <div class="seat seat__B seat__Area">Area B</div>
+            </div>
+            <div class="row">
+                @foreach (var item in Model.ParkingSpaces.Where(p => p.Id >= 23 && p.Id <= 32))
+                {
+                    <div class="seat seat__B" parking-space-id="@item.Id" state="@item.AvailabilityStatus">@item.Location</div>
+                }
+                <div class="seat seat__B seat__Area"></div>
+            </div>
         </div>
-    </div>
-    <!-- parking lot area A -->
-    <div class="row row__A">
-        <div class="row">
-            @foreach (var item in Model.ParkingSpaces.Where(p => p.Id >= 33 && p.Id <= 42))
-            {
-                <div class="seat seat__A" parking-space-id="@item.Id" state="@item.AvailabilityStatus">@item.Location</div>
-            }
-            <div class="seat seat__A seat__Area">Area A</div>
+        <!-- parking lot area A -->
+        <div class="row row__A">
+            <div class="row">
+                @foreach (var item in Model.ParkingSpaces.Where(p => p.Id >= 33 && p.Id <= 42))
+                {
+                    <div class="seat seat__A" parking-space-id="@item.Id" state="@item.AvailabilityStatus">@item.Location</div>
+                }
+                <div class="seat seat__A seat__Area">Area A</div>
+            </div>
+            <div class="row">
+                @foreach (var item in Model.ParkingSpaces.Where(p => p.Id >= 43 && p.Id <= 53))
+                {
+                    <div class="seat seat__A" parking-space-id="@item.Id" state="@item.AvailabilityStatus">@item.Location</div>
+                }
+                <div class="seat seat__A seat__Area"></div>
+            </div>
         </div>
-        <div class="row">
-            @foreach (var item in Model.ParkingSpaces.Where(p => p.Id >= 43 && p.Id <= 53))
-            {
-                <div class="seat seat__A" parking-space-id="@item.Id" state="@item.AvailabilityStatus">@item.Location</div>
-            }
-            <div class="seat seat__A seat__Area"></div>
-        </div>
-    </div>
 
-    <!-- parking lot area D -->
-    <div class="row row__D">
-        @foreach (var item in Model.ParkingSpaces.Where(p => p.Id >= 54 && p.Id <= 58))
-        {
-            <div class="seat seat__D" parking-space-id="@item.Id" state="@item.AvailabilityStatus">@item.Location</div>
-        }
-        <div class="seat seat__D seat__Area">Area D</div>
+        <!-- parking lot area D -->
+        <div class="row row__D">
+            @foreach (var item in Model.ParkingSpaces.Where(p => p.Id >= 54 && p.Id <= 58))
+            {
+                <div class="seat seat__D" parking-space-id="@item.Id" state="@item.AvailabilityStatus">@item.Location</div>
+            }
+            <div class="seat seat__D seat__Area">Area D</div>
+        </div>
     </div>
 </div>

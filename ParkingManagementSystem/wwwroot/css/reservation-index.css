@@ -1,8 +1,13 @@
-﻿.seat-grid {
+﻿.container-body {
+    display: flex;
+    flex-direction: row;
+}
+.seat-grid {
     display: flex;
     flex-direction: column;
     align-items: end;
     justify-content: end;
+    width: 80%;
 }
 
 .row {
@@ -67,4 +72,10 @@
 
 .seat__Area {
     background-color: transparent;
+}
+
+.sidebar.sidebar-second {
+    width: 20%;
+    background-color: lightgray;
+    padding: 20px;
 }
