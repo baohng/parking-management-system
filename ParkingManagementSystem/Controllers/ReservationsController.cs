@@ -36,6 +36,20 @@ namespace ParkingManagementSystem.Controllers
             return View(viewModel);
         }
 
+        // GET: Reservations
+        public async Task<IActionResult> YourIndex()
+        {
+            var applicationDbContext = _context.Reservations.Include(r => r.ParkingSpace).Include(r => r.User);
+            var parkingSpace = _context.ParkingSpaces;
+
+            var viewModel = new ReservationParkingspaceViewModel()
+            {
+                Reservations = await applicationDbContext.ToListAsync(),
+                ParkingSpaces = await parkingSpace.ToListAsync()
+            };
+            return View(viewModel);
+        }
+
         // GET: Reservations/Details/5
         public async Task<IActionResult> Details(int? id)
         {
@@ -117,18 +131,25 @@ namespace ParkingManagementSystem.Controllers
         // GET: Reservations/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
+            var user = await _userManager.GetUserAsync(User);
+
             if (id == null || _context.Reservations == null)
             {
                 return NotFound();
             }
 
             var reservation = await _context.Reservations.FindAsync(id);
+            var parkingSpaceId = await _context.ParkingSpaces.FindAsync(reservation.ParkingSpaceId);
             if (reservation == null)
             {
                 return NotFound();
             }
-            ViewData["ParkingSpaceId"] = new SelectList(_context.ParkingSpaces, "Id", "Id", reservation.ParkingSpaceId);
-            ViewData["UserId"] = new SelectList(_context.Users, "Id", "Id", reservation.UserId);
+            ViewData["ParkingSpaceId"] = parkingSpaceId.Id;
+            //ViewData["ParkingSpaceId"] = new SelectList(_context.ParkingSpaces, "Id", "Id");
+            ViewData["UserId"] = user.Id;
+
+            //ViewData["ParkingSpaceId"] = new SelectList(_context.ParkingSpaces, "Id", "Id", reservation.ParkingSpaceId);
+            //ViewData["UserId"] = new SelectList(_context.Users, "Id", "Id", reservation.UserId);
             return View(reservation);
         }
 
@@ -201,6 +222,17 @@ namespace ParkingManagementSystem.Controllers
             var reservation = await _context.Reservations.FindAsync(id);
             if (reservation != null)
             {
+                var parkingSpace = await _context.ParkingSpaces.FindAsync(reservation.ParkingSpaceId);
+
+                if (parkingSpace != null)
+                {
+                    // Update the parking space status to "Available"
+                    parkingSpace.AvailabilityStatus = "available";
+
+                    // Save the changes to the database
+                    await _context.SaveChangesAsync();
+                }
+
                 _context.Reservations.Remove(reservation);
             }
             
