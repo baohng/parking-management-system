@@ -558,3 +558,14 @@ C:\Users\Admin\Desktop\parking-management-system\ParkingManagementSystem\obj\Deb
 C:\Users\Admin\Desktop\parking-management-system\ParkingManagementSystem\obj\Debug\net6.0\ParkingManagementSystem.pdb
 C:\Users\Admin\Desktop\parking-management-system\ParkingManagementSystem\obj\Debug\net6.0\ParkingManagementSystem.genruntimeconfig.cache
 C:\Users\Admin\Desktop\parking-management-system\ParkingManagementSystem\obj\Debug\net6.0\ref\ParkingManagementSystem.dll
+C:\Users\Admin\Desktop\parking-management-system\ParkingManagementSystem\bin\Debug\net6.0\Aspose.PDF.dll
+C:\Users\Admin\Desktop\parking-management-system\ParkingManagementSystem\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Admin\Desktop\parking-management-system\ParkingManagementSystem\bin\Debug\net6.0\PdfSharpCore.dll
+C:\Users\Admin\Desktop\parking-management-system\ParkingManagementSystem\bin\Debug\net6.0\ICSharpCode.SharpZipLib.dll
+C:\Users\Admin\Desktop\parking-management-system\ParkingManagementSystem\bin\Debug\net6.0\SixLabors.Fonts.dll
+C:\Users\Admin\Desktop\parking-management-system\ParkingManagementSystem\bin\Debug\net6.0\SixLabors.ImageSharp.dll
+C:\Users\Admin\Desktop\parking-management-system\ParkingManagementSystem\bin\Debug\net6.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\Admin\Desktop\parking-management-system\ParkingManagementSystem\bin\Debug\net6.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\Admin\Desktop\parking-management-system\ParkingManagementSystem\bin\Debug\net6.0\de\PdfSharpCore.resources.dll
+C:\Users\Admin\Desktop\parking-management-system\ParkingManagementSystem\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\Admin\Desktop\parking-management-system\ParkingManagementSystem\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
