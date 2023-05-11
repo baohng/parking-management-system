@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0dy0eE9FfBGvI4Vdnl/PtmRIhAv83EPADmKlwx9/WeE=",
+  "Hash": "YUkKMlmLRvKao0SvTyBXH/O23zNkbMfCeJgckCfHg4M=",
   "Source": "ParkingManagementSystem",
   "BasePath": "_content/ParkingManagementSystem",
   "Mode": "Default",
@@ -2941,6 +2941,23 @@
       "OriginalItemSpec": "wwwroot\\ADMINS\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
     },
     {
+      "Identity": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\css\\reservation-index.css",
+      "SourceId": "ParkingManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\",
+      "BasePath": "_content/ParkingManagementSystem",
+      "RelativePath": "css/reservation-index.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\reservation-index.css"
+    },
+    {
       "Identity": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\css\\site.css",
       "SourceId": "ParkingManagementSystem",
       "SourceType": "Discovered",
@@ -2973,6 +2990,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\js\\reservation-index.js",
+      "SourceId": "ParkingManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\",
+      "BasePath": "_content/ParkingManagementSystem",
+      "RelativePath": "js/reservation-index.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\reservation-index.js"
     },
     {
       "Identity": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\js\\site.js",

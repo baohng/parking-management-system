@@ -64,4 +64,3 @@
     Chart.defaults.borderColor = "#FFFFFF";
   
 })(jQuery);
-

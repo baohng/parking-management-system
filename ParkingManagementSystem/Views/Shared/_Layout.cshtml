@@ -7,6 +7,12 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/ParkingManagementSystem.styles.css" asp-append-version="true" />
+
+    <link rel="stylesheet" href="~/css/reservation-index.css" asp-append-version="true" />
+
+    <script defer src="~/js/parkingSpaceState.js"></script>
+    <script defer src="~/js/reservation-index.js"></script>
+
 </head>
 <body>
     <header>
@@ -25,6 +31,10 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Reservations" asp-action="Index">Resevation</a>
+                        </li>
+                        
                     </ul>
                     <partial name="_LoginPartial" />
                 </div>

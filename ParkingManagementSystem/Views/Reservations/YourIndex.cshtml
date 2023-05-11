@@ -1,0 +1,50 @@
+﻿@model ReservationParkingspaceViewModel
+
+@{
+    ViewData["Title"] = "History Reservation";
+}
+
+<h1>History Reservation</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                User
+            </th>
+            <th>
+                Reservation Start Time
+            </th>
+            <th>
+                Reservation End Time
+            </th>
+            <th>
+                Parking Space
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Reservations)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.User.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ReservationStartTime)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ReservationEndTime)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ParkingSpace.Id)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
