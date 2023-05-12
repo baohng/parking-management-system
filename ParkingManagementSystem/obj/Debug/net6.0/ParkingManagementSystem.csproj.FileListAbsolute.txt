@@ -569,3 +569,14 @@ C:\Users\Admin\Desktop\parking-management-system\ParkingManagementSystem\bin\Deb
 C:\Users\Admin\Desktop\parking-management-system\ParkingManagementSystem\bin\Debug\net6.0\de\PdfSharpCore.resources.dll
 C:\Users\Admin\Desktop\parking-management-system\ParkingManagementSystem\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Diagnostics.PerformanceCounter.dll
 C:\Users\Admin\Desktop\parking-management-system\ParkingManagementSystem\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+D:\Personal\BIT\Software project\Workspace\ParkingManagementSystem\ParkingManagementSystem\bin\Debug\net6.0\Aspose.PDF.dll
+D:\Personal\BIT\Software project\Workspace\ParkingManagementSystem\ParkingManagementSystem\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\Personal\BIT\Software project\Workspace\ParkingManagementSystem\ParkingManagementSystem\bin\Debug\net6.0\PdfSharpCore.dll
+D:\Personal\BIT\Software project\Workspace\ParkingManagementSystem\ParkingManagementSystem\bin\Debug\net6.0\ICSharpCode.SharpZipLib.dll
+D:\Personal\BIT\Software project\Workspace\ParkingManagementSystem\ParkingManagementSystem\bin\Debug\net6.0\SixLabors.Fonts.dll
+D:\Personal\BIT\Software project\Workspace\ParkingManagementSystem\ParkingManagementSystem\bin\Debug\net6.0\SixLabors.ImageSharp.dll
+D:\Personal\BIT\Software project\Workspace\ParkingManagementSystem\ParkingManagementSystem\bin\Debug\net6.0\System.Diagnostics.PerformanceCounter.dll
+D:\Personal\BIT\Software project\Workspace\ParkingManagementSystem\ParkingManagementSystem\bin\Debug\net6.0\System.Security.Cryptography.Pkcs.dll
+D:\Personal\BIT\Software project\Workspace\ParkingManagementSystem\ParkingManagementSystem\bin\Debug\net6.0\de\PdfSharpCore.resources.dll
+D:\Personal\BIT\Software project\Workspace\ParkingManagementSystem\ParkingManagementSystem\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Diagnostics.PerformanceCounter.dll
+D:\Personal\BIT\Software project\Workspace\ParkingManagementSystem\ParkingManagementSystem\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
