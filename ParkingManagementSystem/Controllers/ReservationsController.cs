@@ -23,10 +23,18 @@ namespace ParkingManagementSystem.Controllers
         }
 
         // GET: Reservations
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(DateTime? searchStartDate, DateTime? searchEndDate)
         {
-            var applicationDbContext = _context.Reservations.Include(r => r.ParkingSpace).Include(r => r.User);
+            var applicationDbContext = _context.Reservations.Include(r => r.ParkingSpace).Include(r => r.User)
+                as IQueryable<Reservation>;
             var parkingSpace = _context.ParkingSpaces;
+
+            //if (searchStartDate != null && searchEndDate != null)
+            //{
+            //    applicationDbContext = applicationDbContext.Where(r =>
+            //        r.ReservationStartTime >= searchStartDate &&
+            //        r.ReservationEndTime <= searchEndDate);
+            //}
 
             var viewModel = new ReservationParkingspaceViewModel()
             {

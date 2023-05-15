@@ -79,3 +79,8 @@
     background-color: lightgray;
     padding: 20px;
 }
+.container-searching {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
