@@ -1,5 +1,6 @@
 ﻿using Microsoft.Data.SqlClient;
 using System.Data;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace ParkingManagementSystem.Models
 {
@@ -23,11 +24,13 @@ namespace ParkingManagementSystem.Models
         }
         public DataTable GetParkingLot()
         {
-            SqlCommand com = new SqlCommand("select * from ParkingLots ", con);
+            SqlCommand com   = new SqlCommand("select * from ParkingLots ", con);
             SqlDataAdapter da = new SqlDataAdapter(com);
             DataTable dt = new DataTable();
             da.Fill(dt);
             return dt;
         }
-    }
+        
+
+	}
 }
