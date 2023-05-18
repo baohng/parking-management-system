@@ -1,695 +1,695 @@
 {
   "Files": [
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ParkingManagementSystem.bundle.scp.css",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ParkingManagementSystem.bundle.scp.css",
       "PackagePath": "staticwebassets\\ParkingManagementSystem.bundle.scp.css"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\ADMINS\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\css\\style.css",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\css\\style.css",
       "PackagePath": "staticwebassets\\ADMINS\\css\\style.css"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\img\\testimonial-1.jpg",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\img\\testimonial-1.jpg",
       "PackagePath": "staticwebassets\\ADMINS\\img\\testimonial-1.jpg"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\img\\testimonial-2.jpg",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\img\\testimonial-2.jpg",
       "PackagePath": "staticwebassets\\ADMINS\\img\\testimonial-2.jpg"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\img\\user.jpg",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\img\\user.jpg",
       "PackagePath": "staticwebassets\\ADMINS\\img\\user.jpg"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\js\\main.js",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\js\\main.js",
       "PackagePath": "staticwebassets\\ADMINS\\js\\main.js"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\lib\\chart\\chart.min.js",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\lib\\chart\\chart.min.js",
       "PackagePath": "staticwebassets\\ADMINS\\lib\\chart\\chart.min.js"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\lib\\easing\\easing.js",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\lib\\easing\\easing.js",
       "PackagePath": "staticwebassets\\ADMINS\\lib\\easing\\easing.js"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\lib\\easing\\easing.min.js",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\lib\\easing\\easing.min.js",
       "PackagePath": "staticwebassets\\ADMINS\\lib\\easing\\easing.min.js"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\lib\\owlcarousel\\LICENSE",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\lib\\owlcarousel\\LICENSE",
       "PackagePath": "staticwebassets\\ADMINS\\lib\\owlcarousel"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\lib\\owlcarousel\\assets\\ajax-loader.gif",
       "PackagePath": "staticwebassets\\ADMINS\\lib\\owlcarousel\\assets\\ajax-loader.gif"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\lib\\owlcarousel\\assets\\owl.carousel.css",
       "PackagePath": "staticwebassets\\ADMINS\\lib\\owlcarousel\\assets\\owl.carousel.css"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
       "PackagePath": "staticwebassets\\ADMINS\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\lib\\owlcarousel\\assets\\owl.theme.default.css",
       "PackagePath": "staticwebassets\\ADMINS\\lib\\owlcarousel\\assets\\owl.theme.default.css"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
       "PackagePath": "staticwebassets\\ADMINS\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\lib\\owlcarousel\\assets\\owl.theme.green.css",
       "PackagePath": "staticwebassets\\ADMINS\\lib\\owlcarousel\\assets\\owl.theme.green.css"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
       "PackagePath": "staticwebassets\\ADMINS\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\lib\\owlcarousel\\assets\\owl.video.play.png",
       "PackagePath": "staticwebassets\\ADMINS\\lib\\owlcarousel\\assets\\owl.video.play.png"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\lib\\owlcarousel\\owl.carousel.js",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\lib\\owlcarousel\\owl.carousel.js",
       "PackagePath": "staticwebassets\\ADMINS\\lib\\owlcarousel\\owl.carousel.js"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\lib\\owlcarousel\\owl.carousel.min.js",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\lib\\owlcarousel\\owl.carousel.min.js",
       "PackagePath": "staticwebassets\\ADMINS\\lib\\owlcarousel\\owl.carousel.min.js"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css",
       "PackagePath": "staticwebassets\\ADMINS\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css",
       "PackagePath": "staticwebassets\\ADMINS\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\lib\\tempusdominus\\js\\moment-timezone.min.js",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\lib\\tempusdominus\\js\\moment-timezone.min.js",
       "PackagePath": "staticwebassets\\ADMINS\\lib\\tempusdominus\\js\\moment-timezone.min.js"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\lib\\tempusdominus\\js\\moment.min.js",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\lib\\tempusdominus\\js\\moment.min.js",
       "PackagePath": "staticwebassets\\ADMINS\\lib\\tempusdominus\\js\\moment.min.js"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js",
       "PackagePath": "staticwebassets\\ADMINS\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js",
       "PackagePath": "staticwebassets\\ADMINS\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\lib\\waypoints\\links.php",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\lib\\waypoints\\links.php",
       "PackagePath": "staticwebassets\\ADMINS\\lib\\waypoints\\links.php"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\lib\\waypoints\\waypoints.min.js",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\lib\\waypoints\\waypoints.min.js",
       "PackagePath": "staticwebassets\\ADMINS\\lib\\waypoints\\waypoints.min.js"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\_accordion.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\_accordion.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\_accordion.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\_alert.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\_alert.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\_alert.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\_badge.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\_badge.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\_badge.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\_breadcrumb.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\_breadcrumb.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\_breadcrumb.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\_button-group.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\_button-group.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\_button-group.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\_buttons.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\_buttons.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\_buttons.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\_card.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\_card.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\_card.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\_carousel.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\_carousel.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\_carousel.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\_close.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\_close.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\_close.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\_containers.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\_containers.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\_containers.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\_dropdown.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\_dropdown.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\_dropdown.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\_forms.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\_forms.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\_forms.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\_functions.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\_functions.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\_functions.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\_grid.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\_grid.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\_grid.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\_helpers.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\_helpers.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\_helpers.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\_images.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\_images.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\_images.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\_list-group.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\_list-group.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\_list-group.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\_mixins.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\_mixins.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\_mixins.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\_modal.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\_modal.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\_modal.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\_nav.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\_nav.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\_nav.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\_navbar.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\_navbar.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\_navbar.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\_offcanvas.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\_offcanvas.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\_offcanvas.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\_pagination.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\_pagination.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\_pagination.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\_popover.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\_popover.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\_popover.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\_progress.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\_progress.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\_progress.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\_reboot.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\_reboot.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\_reboot.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\_root.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\_root.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\_root.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\_spinners.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\_spinners.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\_spinners.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\_tables.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\_tables.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\_tables.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\_toasts.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\_toasts.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\_toasts.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\_tooltip.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\_tooltip.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\_tooltip.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\_transitions.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\_transitions.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\_transitions.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\_type.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\_type.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\_type.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\_utilities.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\_utilities.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\_utilities.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\_variables.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\_variables.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\_variables.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\bootstrap-grid.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\bootstrap-reboot.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\bootstrap-reboot.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\bootstrap-reboot.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\bootstrap-utilities.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\bootstrap-utilities.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\bootstrap-utilities.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\bootstrap.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\bootstrap.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\bootstrap.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\forms\\_form-check.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\forms\\_form-check.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\forms\\_form-check.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\forms\\_form-control.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\forms\\_form-control.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\forms\\_form-control.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\forms\\_form-range.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\forms\\_form-range.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\forms\\_form-range.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\forms\\_form-select.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\forms\\_form-select.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\forms\\_form-select.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\forms\\_form-text.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\forms\\_form-text.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\forms\\_form-text.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\forms\\_input-group.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\forms\\_input-group.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\forms\\_input-group.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\forms\\_labels.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\forms\\_labels.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\forms\\_labels.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\forms\\_validation.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\forms\\_validation.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\forms\\_validation.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\helpers\\_position.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\helpers\\_position.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\helpers\\_position.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\helpers\\_ratio.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\helpers\\_ratio.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\helpers\\_ratio.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\mixins\\_alert.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\mixins\\_alert.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\mixins\\_alert.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\mixins\\_buttons.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\mixins\\_buttons.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\mixins\\_buttons.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\mixins\\_caret.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\mixins\\_caret.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\mixins\\_caret.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\mixins\\_container.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\mixins\\_container.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\mixins\\_container.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\mixins\\_forms.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\mixins\\_forms.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\mixins\\_forms.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\mixins\\_gradients.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\mixins\\_gradients.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\mixins\\_gradients.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\mixins\\_grid.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\mixins\\_grid.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\mixins\\_grid.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\mixins\\_image.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\mixins\\_image.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\mixins\\_image.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\mixins\\_list-group.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\mixins\\_list-group.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\mixins\\_list-group.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\mixins\\_lists.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\mixins\\_lists.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\mixins\\_lists.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\mixins\\_pagination.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\mixins\\_pagination.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\mixins\\_pagination.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\mixins\\_resize.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\mixins\\_resize.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\mixins\\_resize.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\mixins\\_transition.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\mixins\\_transition.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\mixins\\_transition.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\mixins\\_utilities.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\mixins\\_utilities.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\mixins\\_utilities.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\utilities\\_api.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\utilities\\_api.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\utilities\\_api.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\ADMINS\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
       "PackagePath": "staticwebassets\\ADMINS\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\css\\reservation-index.css",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\css\\reservation-index.css",
       "PackagePath": "staticwebassets\\css\\reservation-index.css"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\js\\reservation-index.js",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\js\\reservation-index.js",
       "PackagePath": "staticwebassets\\js\\reservation-index.js"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "D:\\Personal\\BIT\\Software project\\Workspace\\ParkingManagementSystem\\ParkingManagementSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\Admin\\Desktop\\parking-management-system\\ParkingManagementSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
