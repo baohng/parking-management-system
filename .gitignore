@@ -396,3 +396,6 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+/.vs/ParkingManagementSystem/v17/.suo
+/ParkingManagementSystem/obj/Debug/net6.0/ParkingManagementSystem.assets.cache
+/ParkingManagementSystem/obj/Debug/net6.0/ParkingManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
