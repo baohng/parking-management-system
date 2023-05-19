@@ -29,12 +29,9 @@ namespace ParkingManagementSystem.Controllers
                 as IQueryable<Reservation>;
             var parkingSpace = _context.ParkingSpaces;
 
-            //if (searchStartDate != null && searchEndDate != null)
-            //{
-            //    applicationDbContext = applicationDbContext.Where(r =>
-            //        r.ReservationStartTime >= searchStartDate &&
-            //        r.ReservationEndTime <= searchEndDate);
-            //}
+            // Set the search start date and end date in the form fields
+            ViewData["SearchStartDate"] = searchStartDate?.ToString("yyyy-MM-ddTHH:mm");
+            ViewData["SearchEndDate"] = searchEndDate?.ToString("yyyy-MM-ddTHH:mm");
 
             var viewModel = new ReservationParkingspaceViewModel()
             {
