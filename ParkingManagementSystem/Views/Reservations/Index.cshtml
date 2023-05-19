@@ -85,12 +85,20 @@
                     }
 
                     var reservations = Model.Reservations.Where(r => r.ParkingSpaceId == item.Id &&
-                    r.ReservationStartTime <= searchEndDate &&
-                    r.ReservationEndTime >= searchStartDate);
+                    ((r.ReservationStartTime <= searchEndDate && r.ReservationEndTime >= searchStartDate) ||
+                    (r.ReservationStartTime >= searchStartDate && r.ReservationStartTime <= searchEndDate) ||
+                    (r.ReservationEndTime >= searchStartDate && r.ReservationEndTime <= searchEndDate) ||
+                    (r.ReservationStartTime <= searchStartDate && r.ReservationEndTime >= searchEndDate) ||
+                    (r.ReservationStartTime <= searchStartDate && r.ReservationEndTime >= searchEndDate) ||
+                    (r.ReservationStartTime >= searchStartDate && r.ReservationEndTime <= searchEndDate) ||
+                    (r.ReservationStartTime <= searchStartDate && r.ReservationEndTime >= searchStartDate && r.ReservationEndTime <= searchEndDate) ||
+                    (r.ReservationStartTime >= searchStartDate && r.ReservationStartTime >= searchEndDate) ||
+                    (r.ReservationEndTime <= searchStartDate && r.ReservationEndTime <= searchEndDate)
+                    ));
 
-                    // Check if there is any reservation within the specified search range
-                    bool isReserved = reservations.Any(r => r.ReservationStartTime <= searchStartDate && r.ReservationEndTime >= searchEndDate);
-                    string availabilityStatus = reservations.Any() ? "available" : item.AvailabilityStatus;
+                    bool isReserved = reservations.Any(r => r.ReservationStartTime <= searchEndDate && r.ReservationEndTime >= searchStartDate);
+
+                    string availabilityStatus = isReserved ? "reserved" : "available";
 
 
                     <div class="seat seat__B" parking-space-id="@item.Id" state="@availabilityStatus">@item.Location</div>
@@ -115,12 +123,20 @@
                     }
 
                     var reservations = Model.Reservations.Where(r => r.ParkingSpaceId == item.Id &&
-                    r.ReservationStartTime <= searchEndDate &&
-                    r.ReservationEndTime >= searchStartDate);
+                    ((r.ReservationStartTime <= searchEndDate && r.ReservationEndTime >= searchStartDate) ||
+                    (r.ReservationStartTime >= searchStartDate && r.ReservationStartTime <= searchEndDate) ||
+                    (r.ReservationEndTime >= searchStartDate && r.ReservationEndTime <= searchEndDate) ||
+                    (r.ReservationStartTime <= searchStartDate && r.ReservationEndTime >= searchEndDate) ||
+                    (r.ReservationStartTime <= searchStartDate && r.ReservationEndTime >= searchEndDate) ||
+                    (r.ReservationStartTime >= searchStartDate && r.ReservationEndTime <= searchEndDate) ||
+                    (r.ReservationStartTime <= searchStartDate && r.ReservationEndTime >= searchStartDate && r.ReservationEndTime <= searchEndDate) ||
+                    (r.ReservationStartTime >= searchStartDate && r.ReservationStartTime >= searchEndDate) ||
+                    (r.ReservationEndTime <= searchStartDate && r.ReservationEndTime <= searchEndDate)
+                    ));
 
-                    // Check if there is any reservation within the specified search range
-                    bool isReserved = reservations.Any(r => r.ReservationStartTime <= searchStartDate && r.ReservationEndTime >= searchEndDate);
-                    string availabilityStatus = reservations.Any() ? "available" : item.AvailabilityStatus;
+                    bool isReserved = reservations.Any(r => r.ReservationStartTime <= searchEndDate && r.ReservationEndTime >= searchStartDate);
+
+                    string availabilityStatus = isReserved ? "reserved" : "available";
 
 
                     <div class="seat seat__B" parking-space-id="@item.Id" state="@availabilityStatus">@item.Location</div>
@@ -147,12 +163,20 @@
                     }
 
                     var reservations = Model.Reservations.Where(r => r.ParkingSpaceId == item.Id &&
-                    r.ReservationStartTime <= searchEndDate &&
-                    r.ReservationEndTime >= searchStartDate);
+                    ((r.ReservationStartTime <= searchEndDate && r.ReservationEndTime >= searchStartDate) ||
+                    (r.ReservationStartTime >= searchStartDate && r.ReservationStartTime <= searchEndDate) ||
+                    (r.ReservationEndTime >= searchStartDate && r.ReservationEndTime <= searchEndDate) ||
+                    (r.ReservationStartTime <= searchStartDate && r.ReservationEndTime >= searchEndDate) ||
+                    (r.ReservationStartTime <= searchStartDate && r.ReservationEndTime >= searchEndDate) ||
+                    (r.ReservationStartTime >= searchStartDate && r.ReservationEndTime <= searchEndDate) ||
+                    (r.ReservationStartTime <= searchStartDate && r.ReservationEndTime >= searchStartDate && r.ReservationEndTime <= searchEndDate) ||
+                    (r.ReservationStartTime >= searchStartDate && r.ReservationStartTime >= searchEndDate) ||
+                    (r.ReservationEndTime <= searchStartDate && r.ReservationEndTime <= searchEndDate)
+                    ));
 
-                    // Check if there is any reservation within the specified search range
-                    bool isReserved = reservations.Any(r => r.ReservationStartTime <= searchStartDate && r.ReservationEndTime >= searchEndDate);
-                    string availabilityStatus = reservations.Any() ? "available" : item.AvailabilityStatus;
+                    bool isReserved = reservations.Any(r => r.ReservationStartTime <= searchEndDate && r.ReservationEndTime >= searchStartDate);
+
+                    string availabilityStatus = isReserved ? "reserved" : "available";
 
                     <div class="seat seat__A" parking-space-id="@item.Id" state="@availabilityStatus">@item.Location</div>
                 }
@@ -175,12 +199,20 @@
                     }
 
                     var reservations = Model.Reservations.Where(r => r.ParkingSpaceId == item.Id &&
-                    r.ReservationStartTime <= searchEndDate &&
-                    r.ReservationEndTime >= searchStartDate);
+                    ((r.ReservationStartTime <= searchEndDate && r.ReservationEndTime >= searchStartDate) ||
+                    (r.ReservationStartTime >= searchStartDate && r.ReservationStartTime <= searchEndDate) ||
+                    (r.ReservationEndTime >= searchStartDate && r.ReservationEndTime <= searchEndDate) ||
+                    (r.ReservationStartTime <= searchStartDate && r.ReservationEndTime >= searchEndDate) ||
+                    (r.ReservationStartTime <= searchStartDate && r.ReservationEndTime >= searchEndDate) ||
+                    (r.ReservationStartTime >= searchStartDate && r.ReservationEndTime <= searchEndDate) ||
+                    (r.ReservationStartTime <= searchStartDate && r.ReservationEndTime >= searchStartDate && r.ReservationEndTime <= searchEndDate) ||
+                    (r.ReservationStartTime >= searchStartDate && r.ReservationStartTime >= searchEndDate) ||
+                    (r.ReservationEndTime <= searchStartDate && r.ReservationEndTime <= searchEndDate)
+                    ));
 
-                    // Check if there is any reservation within the specified search range
-                    bool isReserved = reservations.Any(r => r.ReservationStartTime <= searchStartDate && r.ReservationEndTime >= searchEndDate);
-                    string availabilityStatus = reservations.Any() ? "available" : item.AvailabilityStatus;
+                    bool isReserved = reservations.Any(r => r.ReservationStartTime <= searchEndDate && r.ReservationEndTime >= searchStartDate);
+
+                    string availabilityStatus = isReserved ? "reserved" : "available";
 
                     <div class="seat seat__A" parking-space-id="@item.Id" state="@availabilityStatus">@item.Location</div>
                 }
@@ -206,12 +238,20 @@
                 }
 
                 var reservations = Model.Reservations.Where(r => r.ParkingSpaceId == item.Id &&
-                r.ReservationStartTime <= searchEndDate &&
-                r.ReservationEndTime >= searchStartDate);
+                ((r.ReservationStartTime <= searchEndDate && r.ReservationEndTime >= searchStartDate) ||
+                (r.ReservationStartTime >= searchStartDate && r.ReservationStartTime <= searchEndDate) ||
+                (r.ReservationEndTime >= searchStartDate && r.ReservationEndTime <= searchEndDate) ||
+                (r.ReservationStartTime <= searchStartDate && r.ReservationEndTime >= searchEndDate) ||
+                (r.ReservationStartTime <= searchStartDate && r.ReservationEndTime >= searchEndDate) ||
+                (r.ReservationStartTime >= searchStartDate && r.ReservationEndTime <= searchEndDate) ||
+                (r.ReservationStartTime <= searchStartDate && r.ReservationEndTime >= searchStartDate && r.ReservationEndTime <= searchEndDate) ||
+                (r.ReservationStartTime >= searchStartDate && r.ReservationStartTime >= searchEndDate) ||
+                (r.ReservationEndTime <= searchStartDate && r.ReservationEndTime <= searchEndDate)
+                ));
 
-                // Check if there is any reservation within the specified search range
-                bool isReserved = reservations.Any(r => r.ReservationStartTime <= searchStartDate && r.ReservationEndTime >= searchEndDate);
-                string availabilityStatus = reservations.Any() ? "available" : item.AvailabilityStatus;
+                bool isReserved = reservations.Any(r => r.ReservationStartTime <= searchEndDate && r.ReservationEndTime >= searchStartDate);
+
+                string availabilityStatus = isReserved ? "reserved" : "available";
 
                 <div class="seat seat__D" parking-space-id="@item.Id" state="@availabilityStatus">@item.Location</div>
             }

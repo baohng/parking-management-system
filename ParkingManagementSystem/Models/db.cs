@@ -5,7 +5,7 @@ namespace ParkingManagementSystem.Models
 {
     public class db
     {
-        SqlConnection con = new SqlConnection("Data Source=TRUONGDUY\\SQLEXPRESS;Initial Catalog=ParkingManagementSystem.Data;Integrated Security=true");
+        SqlConnection con = new SqlConnection("Data Source=BAO-HNG;Initial Catalog=ParkingManagementSystem.Data;Integrated Security=true");
         public DataTable GetRecord() { 
             SqlCommand com = new SqlCommand("select * from Sessions ",con);
             SqlDataAdapter da = new SqlDataAdapter(com);
