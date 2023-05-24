@@ -10,7 +10,7 @@ namespace ParkingManagementSystem.Controllers
         public IActionResult Index()
         {
             // Kết nối đến cơ sở dữ liệu và truy vấn dữ liệu từ procedure
-            string connectionString = "Server=BAO-HNG;Database=ParkingManagementSystem.Data;Trusted_Connection=True;MultipleActiveResultSets=true;encrypt=false";
+            string connectionString = "server=TRUONGDUY\\SQLEXPRESS;Database=ParkingManagementSystem;Trusted_Connection=True;MultipleActiveResultSets=true;encrypt=false";
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
                 connection.Open();
