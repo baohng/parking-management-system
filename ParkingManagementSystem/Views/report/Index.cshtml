@@ -4,68 +4,104 @@
 @{
     Layout = "ADMIN";
 }
-<link href="~/css/style.css" rel="stylesheet" />
-<a class="soluong">số lượng</a>
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-
-<canvas id="myChart"></canvas>
-
-<script>
-    // Lấy dữ liệu từ ViewBag
-    var thongKeList = @Html.Raw(Json.Serialize(ViewBag.ThongKeList)) ;
-
-
-    //thongKeList.forEach(function(item) {
-    //    item.thang = parseInt(item.thang);
-    //    item.soLuongVe = parseInt(item.soLuongVe);
-    //});
-
-    //var labels = thongKeList.map(function (item) {
-    //    return item.Thang;
-    //});
-
-    //var data = thongKeList.map(function(item) {
-    //    return item.soLuongVe;
-    //});
-    var data = [];
-    var labels = [];
-
-
-    thongKeList.forEach(function (item) {
-        item.thang = parseInt(item.thang);
-        data.push(item.soLuongVe);
-        labels.push(item.thang);
-    });
-    // Tạo biểu đồ với Chart.js
-    var ctx = document.getElementById('myChart');
-    var myChart = new Chart(ctx, {
-        type: 'bar',
-        data: {
-            labels: labels,
-            datasets: [{
-                label: 'Số lượng vé',
-                data: data,
-                backgroundColor: 'rgba(255, 99, 132, 0.2)',
-                borderColor: 'rgba(255, 99, 132, 1)',
-                borderWidth: 1
-            }]
-        },
-        options: {
-            scales: {
-                yAxes: [{
-                    ticks: {
-                        beginAtZero: true
-                    }
-                }]
-            }
-        }
-    });
-
-</script>
-<div class="container">
-    <div class="row">
-        <div class="col-sm-6 mx-auto">
-            <p>Tháng</p>
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto ;
+  background-color: #2196F3;
+  padding: 10px;
+  
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 20px;
+ 
+}
+</style>
+<body>       
+    <div class="grid-container">
+        <div class="grid-item">
+            <a class="soluong">số lượng</a>
+            <canvas id="myChart" style="max-width:400px;max-height:400px;"></canvas>
+            <a class="thang">Tháng</a>
+         </div>
+         
+        <div class="grid-item">
+            <canvas id="Chart" style="max-width:400px;max-height:400px;margin-top:10px"></canvas>
         </div>
+
     </div>
-</div>
+    <script>
+        var thongKeList = @Html.Raw(Json.Serialize(ViewBag.ThongKeList)) ;
+        var data = [];
+        var labels = [];
+
+
+        thongKeList.forEach(function (item) {
+            item.thang = parseInt(item.thang);
+            data.push(item.soLuongVe);
+            labels.push(item.thang);
+        });
+        // Tạo biểu đồ với Chart.js
+        var ctx = document.getElementById('myChart');
+        var myChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: labels,
+                datasets: [{
+                    label: 'Số lượng vé',
+                    data: data,
+                    backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                    borderColor: 'rgba(255, 99, 132, 1)',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    yAxes: [{
+                        ticks: {
+                            beginAtZero: true
+                        }
+                    }]
+                }
+            }
+        });
+
+
+        var xValues = ["Khu A", "Khu B", "Khu C", "Khu D"];
+        var yValues = [55, 49, 44, 24];
+        var barColors = [
+            "#b91d47",
+            "#00aba9",
+            "#2b5797",
+            "#e8c3b9"
+        ];
+
+        new Chart("Chart", {
+            type: "pie",
+            data: {
+                labels: xValues,
+                datasets: [{
+                    backgroundColor: barColors,
+                    data: yValues
+                }]
+            },
+            options: {
+                title: {
+                    display: true,
+                    text: "SÔ LƯỢNG XE TRONG KHU"
+                }
+            }
+        });
+    </script>
+    
+
+</body>
+</html>
